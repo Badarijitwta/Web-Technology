@@ -1,4 +1,3 @@
-# Simple-Calculator
+# WEB TECHNOLOGY
 
-Assignment-1
-WEB TECHNOLOGY
+Assignment-1 Simple Calculator
