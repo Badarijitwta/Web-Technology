@@ -1,10 +1,10 @@
-function insert(num){
-            document.form.textview.value = document.form.textview.value+num;
+function insert(number){
+            document.form.textview.value = document.form.textview.value+number;
         }
 function equal(){
-        let exp = document.form.textview.value;
-                if(exp){
-                    document.form.textview.value = eval(exp)
+        let expression = document.form.textview.value;
+                if(expression){
+                    document.form.textview.value = eval(expression)
                 }
                 else{
                     console.result('Not the right way')
