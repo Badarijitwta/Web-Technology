@@ -2,8 +2,4 @@
 
 Assignment-1 Simple Calculator
 
-
-
-#index.html contains the main function.
-#stlye.css contains the code regarding the aesthetics of the calculator.
-#script.js contains the logic behind the airthmetic operations.
+![Screenshot (96)](https://user-images.githubusercontent.com/67597010/116840745-b01d1d00-abf4-11eb-89e7-32865af9b2d9.png)
