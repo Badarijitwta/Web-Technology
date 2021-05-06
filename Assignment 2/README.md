@@ -2,4 +2,4 @@ Assignment 2
 
 Numbers from 0 to 10 with their squares and cubes
 
-![screen-capture](https://user-images.githubusercontent.com/67597010/117263036-7c99f700-ae6f-11eb-95d8-3d783c27d390.gif)
+![a2](https://user-images.githubusercontent.com/67597010/117266884-55452900-ae73-11eb-8828-079eb4667c57.gif)
