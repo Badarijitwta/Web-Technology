@@ -1,0 +1,37 @@
+body{
+            background: white;
+        }
+
+.button {
+        background: grey;
+        background-color: grey;
+        border: 2px solid white;
+        font-family: 'OpenSans',sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        height: 60px;
+        width: 70px;
+        border-radius:8px;
+    }
+
+.button:hover {
+        background-color:orange;
+    }
+
+form>input{
+        background-color: cadetblue;
+        height: 80px;
+        width: 286px;
+        border-radius: 8px;
+        border: none;
+        margin-left:488px;
+        margin-top: 80px;
+        font-size: 20px;
+        text-align: right;
+    }
+
+table{
+        margin:auto;   
+        border-width: 30px; 
+        border-color: grey;
+        }                                                                                                                                                                                                                                                
