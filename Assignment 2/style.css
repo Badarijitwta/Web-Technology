@@ -1,0 +1,18 @@
+table,th,td{
+	border-collapse: collapse;
+	background-color: #7CC1CF;
+	border:2px solid black;
+	padding : 3px;
+}
+
+table{
+	margin-top: 30px;
+}
+
+blink{
+    animation: blinker 0.4s linear infinite;
+    color: blue;
+}
+@keyframes blinker {  
+    50% { opacity: 0; }
+}
