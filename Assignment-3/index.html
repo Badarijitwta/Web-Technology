@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Messi Freekick</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <header>
+        <a href="#home"> Home</a> |
+        <a href="#places">Places</a> |
+        <a href="#search">Search</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#aboutus">About us</a>
+    </header>
+    <br><br>
+
+
+    <section class="content">
+        <h1>MESSI FREE KICK </h1>
+        <img src="https://media0.giphy.com/media/PnPU9GhN3V7oVizSHG/giphy.webp" alt="Lionel Messi">
+
+        <div id="new"> </div>
+        <br>
+
+
+        <p1>Courtesy <U><a href="#">FC BARCELONA</a></U> </p1>
+        <br><br>
+
+        <article style="text-align: justify">
+            Lionel Andrés Messi is an Argentine professional footballer who plays as a forward and captain of the La Liga club
+            Barcelona and also as the captain of the Argentine
+            national team. Often considered as the best player in the world and widely regarded as one of the
+            <strong>"GREATEST PLAYER OF ALL TIME AKA G.O.A.T"</strong>, Messi has won a
+            record six Ballon d'Or awards, a record six European Golden Shoes, and in 2020 was named to the Ballon d'Or
+            Dream Team. He has spent his
+            entire professional career with Barcelona, where he has won a club-record 35 trophies, including ten La Liga
+            titles,
+            seven Copa del Rey titles and four UEFA Champions Leagues.
+        </article>
+
+        <p><B>Year</B> :2019</p>
+        <p><B>Date</B> :10th November</p>
+
+        <h2>Reviews</h2>
+
+        <p style="font-weight:bold"> "Amazing"</p>
+
+        <table>
+            <tr>
+                <td> Pep Guardiola </td>
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <td>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span></td>
+                </td>
+            </tr>
+        </table>
+
+        <article>“He is not just the best player because he can dribble past three or four players, it is because he does it
+            better than anyone in the world.” </article>
+        <br>
+        <hr>
+
+        <p style="font-weight:bold;"> "Crazy" </p>
+
+        <table>
+            <tr>
+                <td> Jose Mourinho </td>
+                <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"> </td>
+            </tr>
+        </table>
+
+        <article> "That was a massive curl u can never expect".</article>
+        <br>
+        <hr><br>
+
+        <p style="font-weight:bold;">"haha"</p>
+
+        <table>
+            <tr>
+                <td> Cristiano Ronaldo </td>
+                <td>
+
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></td>
+            </tr>
+        </table>
+
+        <article>"I can do it in a better way" </article>
+        <hr><br>
+
+        <p style="font-weight:bold;">"Not against madrid"</p>
+
+        <table>
+            <tr>
+                <td> Sergio Ramos </td>
+                <td>
+
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></td>
+            </tr>
+        </table>
+
+        <article>"Hala madrid" </article>
+        <hr><br>
+
+        <p style="font-weight:bold;">"BIZZARE"</p>
+
+        <table>
+            <tr>
+                <td> Neymar </td>
+                <td>
+
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span></td>
+            </tr>
+        </table>
+
+        <article>"Would be great if we play together for barca once again" </article>
+        <br><br>
+
+
+            <section class="end">
+                <a href="#home"> Home</a> |
+                <a href="#places">Places</a> |
+                <a href="#search">Search</a> |
+                <a href="#gallery">Gallery</a> |
+                <a href="#aboutus">About us</a>
+            </section>
+            <br><br>
+
+    <footer>
+        <p><i>Copyright &#169 2021 FC Barcelona</i></p>
+    </footer>
+
+
+    <script>
+        var var1 = setInterval(inTimer, 500);
+        var fs = 5; //font size
+        var ids = document.getElementById("new");
+
+        function inTimer() {
+            ids.innerHTML = 'Lionel Messi';
+            ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+            fs += 5;
+            if (fs >= 50) {
+                clearInterval(var1); //paused
+                var2 = setInterval(deTimer, 500);
+
+            }
+        }
+
+        function deTimer() //fs = 50px
+        {
+            fs -= 5;
+            ids.innerHTML = 'G.O.A.T';
+            ids.setAttribute('style', "font-size: " + fs + "px; color:blue");
+            if (fs == 15) {
+                clearInterval(var2); //paused
+                var1 = setInterval(inTimer, 500);
+            }
+        }
+    </script>
+
+    </section>
+</body>
+
+</html>
