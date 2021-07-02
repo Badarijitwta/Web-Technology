@@ -1,0 +1,14 @@
+*{
+    font-family: sans-serif;
+    background-color: blue;
+}
+
+title,h2{
+    text-align: center;
+    color: white;
+    
+}
+
+h3{
+    color: white;
+}
